@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form exercise</title>
+</head>
+<body>
+    
+    <h1>Register</h1>
+
+    <form>
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" placeholder="John" name="firstname" required>
+        
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder="Smith" name="lastname" required>
+        <!-- NEW LINE -->
+        <br>
+        <!-- NEW LINE -->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="your email" name="email" required>
+
+        <label for="password"> Password:</label>
+        <input id="password" type="password" placeholder="your password" name="password" required minlength="5" maxlength="10">
+
+        <br>
+
+        <label for="dob">Birthday:</label>
+        <select name="month">
+            <option value="month" default>Month</option>
+            <option value="january">january</option>
+            <option value="february">february</option>
+            <option value="march">march</option>
+        </select> 
+        <select name="day">
+            <option value="day" default>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select> 
+        <select name="year">
+            <option value="year" default>Year</option>
+            <option value="1988">1988</option>
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+        </select> 
+            <br>
+
+            <label for="termandconditions">I agree to the terms and conditions:</label>
+        <input name="termandconditions" id="termandconditions" type="checkbox" value="yes">
+
+
+         <br>
+        
+        <input type="submit">
+    </form>
+</body>
+</html>

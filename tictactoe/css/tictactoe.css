@@ -1,0 +1,45 @@
+td {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.top-middle {
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+}
+
+.middle {
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+
+.bottom-middle {
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-top: black solid 1px;
+}
+
+.topleft {
+    border-bottom: black solid 1px;
+}
+
+.bottomleft {
+    border-top: black solid 1px;
+}
+
+.topright {
+    border-bottom: black solid 1px;
+}
+
+.bottomright {
+    border-top: black solid 1px;
+}
+
+table {
+    margin: auto;
+}

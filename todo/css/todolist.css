@@ -1,0 +1,10 @@
+li {
+    border: 3px solid red;
+}
+#hoover {
+    background: yellow;
+}
+
+.completed {
+    text-decoration: line-through;
+}

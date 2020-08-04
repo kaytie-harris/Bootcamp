@@ -1,0 +1,27 @@
+h1 {
+    color: #2BA3B8;
+    /* border-color: purple;
+    border-width: 10px;
+    border-style: solid; */
+    border: 4px solid purple;
+}
+
+li {
+    color: rgb(150,0,100);
+}
+
+h4 {
+    background-color: red;
+}
+
+div {
+    background-color: rgb(252, 251, 153);
+}
+
+body {
+
+    background-color: pink;
+    /* background: url(https://www.janeclayton.co.uk/Product_Images/fullzoom/ColeAndSon-Curio-WoodGrain-107-10045-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
